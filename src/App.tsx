@@ -4,6 +4,8 @@ import About from "./pages/About";
 import PaperCall from "./pages/PaperCall";
 import SubmissionRules from "./pages/Submissions";
 import RegistrationFees from "./pages/Register";
+import Advisory from "./pages/Advisory";
+import Org from "./pages/Org";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
         <Route path="/callforpaper" element={<PaperCall />} />
         <Route path="/papersubmit" element={<SubmissionRules />} />
         <Route path="/register" element={<RegistrationFees />} />
+        <Route path="/advisory" element={<Advisory />} />
+        <Route path="/org" element={<Org />} />
       </Routes>
     </Router>
   );

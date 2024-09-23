@@ -92,10 +92,10 @@ const Header: React.FC = () => {
                   Committee <span className="ml-1">&#9662;</span>
                 </button>
                 <div className="absolute hidden group-hover:block bg-white shadow-lg">
-                  <a href="advisory.html" className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-xl font-medium whitespace-nowrap">
+                  <a href="/advisory" className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-xl font-medium whitespace-nowrap">
                     Advisory Committee
                   </a>
-                  <a href="organizing.html" className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-xl font-medium whitespace-nowrap">
+                  <a href="/org" className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-xl font-medium whitespace-nowrap">
                     Organizing Committee
                   </a>
                   <a href="technicalPgm.html" className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-xl font-medium whitespace-nowrap">
@@ -138,8 +138,8 @@ const Header: React.FC = () => {
                     Committee <span className="ml-1">&#9662;</span>
                   </button>
                   <div className="mt-2 ml-4">
-                    <a href="advisory.html" className="block px-2 py-1 text-gray-900 hover:bg-green-100 text-lg">Advisory Committee</a>
-                    <a href="organizing.html" className="block px-2 py-1 text-gray-900 hover:bg-green-100 text-lg">Organizing Committee</a>
+                    <a href="/advisory" className="block px-2 py-1 text-gray-900 hover:bg-green-100 text-lg">Advisory Committee</a>
+                    <a href="/org" className="block px-2 py-1 text-gray-900 hover:bg-green-100 text-lg">Organizing Committee</a>
                     <a href="technicalPgm.html" className="block px-2 py-1 text-gray-900 hover:bg-green-100 text-lg">Technical Program Committee</a>
                   </div>
                 </div>
