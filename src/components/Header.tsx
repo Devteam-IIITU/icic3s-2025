@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ieeeDelhiLogo from "../assets/images/ieee-delhi.png";
+// import ieeeDelhiLogo from "../assets/images/ieee-delhi.png";
 import Logo from "../assets/images/LOGO_.png";
 
 const Header: React.FC = () => {
@@ -81,46 +81,46 @@ const Header: React.FC = () => {
 
             {/* Navigation Menu */}
             <nav className="hidden lg-custom:flex justify-between items-center space-x-12">
-              <a href="/" className="text-gray-900 hover:text-green-700 font-sans text-2xl font-medium">
+              <a href="/" className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium">
                 Home
               </a>
-              <a href="about_us.html" className="text-gray-900 hover:text-green-700 font-sans text-2xl font-medium">
+              <a href="/about" className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium">
                 About
               </a>
               <div className="relative group">
-                <button className="text-gray-900 hover:text-green-700 font-sans text-2xl font-medium flex items-center focus:outline-none">
+                <button className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium flex items-center focus:outline-none">
                   Committee <span className="ml-1">&#9662;</span>
                 </button>
                 <div className="absolute hidden group-hover:block bg-white shadow-lg">
-                  <a href="advisory.html" className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-2xl font-medium whitespace-nowrap">
+                  <a href="advisory.html" className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-xl font-medium whitespace-nowrap">
                     Advisory Committee
                   </a>
-                  <a href="organizing.html" className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-2xl font-medium whitespace-nowrap">
+                  <a href="organizing.html" className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-xl font-medium whitespace-nowrap">
                     Organizing Committee
                   </a>
-                  <a href="technicalPgm.html" className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-2xl font-medium whitespace-nowrap">
+                  <a href="technicalPgm.html" className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-xl font-medium whitespace-nowrap">
                     Technical Program Committee
                   </a>
                 </div>
               </div>
-              <a href="callforpaper.html" className="text-gray-900 hover:text-green-700 font-sans text-2xl font-medium">
+              <a href="/callforpaper" className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium">
                 Call for Paper
               </a>
-              <a href="papersub.html" className="text-gray-900 hover:text-green-700 font-sans text-2xl font-medium">
+              <a href="/papersubmit" className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium">
                 Paper Submission
               </a>
-              <a href="register.html" className="text-gray-900 hover:text-green-700 font-sans text-2xl font-medium">
+              <a href="/register" className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium">
                 Registration
               </a>
-              <a href="contact_us.html" className="text-gray-900 hover:text-green-700 font-sans text-2xl font-medium">
+              <a href="contact_us.html" className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium">
                 Contact
               </a>
             </nav>
 
             {/* Logo section (Hidden on small screens) */}
-            <div className="hidden lg-custom:flex items-center space-x-4">
+            {/* <div className="hidden lg-custom:flex items-center space-x-4">
               <img src={ieeeDelhiLogo} alt="IEEE Delhi Logo" className="h-16" />
-            </div>
+            </div> */}
           </div>
 
           {/* Mobile Menu */}
@@ -130,7 +130,7 @@ const Header: React.FC = () => {
                 <a href="/" className="block text-gray-900 hover:text-green-700 font-sans text-lg">
                   Home
                 </a>
-                <a href="about_us.html" className="block text-gray-900 hover:text-green-700 font-sans text-lg">
+                <a href="/about" className="block text-gray-900 hover:text-green-700 font-sans text-lg">
                   About
                 </a>
                 <div>
@@ -143,9 +143,9 @@ const Header: React.FC = () => {
                     <a href="technicalPgm.html" className="block px-2 py-1 text-gray-900 hover:bg-green-100 text-lg">Technical Program Committee</a>
                   </div>
                 </div>
-                <a href="callforpaper.html" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Call for Paper</a>
-                <a href="papersub.html" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Paper Submission</a>
-                <a href="register.html" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Registration</a>
+                <a href="/callforpaper" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Call for Paper</a>
+                <a href="/papersubmit" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Paper Submission</a>
+                <a href="/register" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Registration</a>
                 <a href="contact_us.html" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Contact</a>
               </nav>
             </div>
