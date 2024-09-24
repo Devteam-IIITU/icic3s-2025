@@ -1,5 +1,3 @@
-import React from "react";
-
 const SubmissionRules = () => {
   return (
     <div className="flex flex-col bg-white p-6 md:p-10">
