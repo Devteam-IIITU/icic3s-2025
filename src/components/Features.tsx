@@ -18,7 +18,7 @@ const Features: React.FC = () => {
         <div className="flex flex-col lg:flex-row">
           {/* Text Content */}
           <div className="w-full lg:w-3/4 flex font-[sans-serif] flex-col justify-center p-6 lg:pl-20 lg:pr-10 order-2 lg:order-1">
-            <p className="text-justify text-black text-2xl leading-relaxed ">
+            <p className="text-justify text-black text-xl leading-relaxed ">
               International Conference on <strong>“Integrated Circuits, Communication, and Computing Systems
               (ICIC3S-2025)”</strong> is the premier forum for showcasing recent developments and research
               findings in the domains of integrated circuits, microwave, communication, and next generation
