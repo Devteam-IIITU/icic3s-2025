@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import ieeeDelhiLogo from "../assets/images/ieee-delhi.png";
 import Logo from "../assets/images/LOGO_.png";
 
 const Header: React.FC = () => {
@@ -10,7 +9,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="w-full">
+    <header className="element fixed top-0 left-0">
       {/* Top bar with contact info */}
       <div className="bg-blue-950 px-4 lg-custom:px-10 text-xl text-white py-2">
         <div className="max-w-full mx-auto">
@@ -46,7 +45,7 @@ const Header: React.FC = () => {
       </div>
 
       {/* Main Navbar */}
-      <div className="bg-gray-300 py-4">
+      <div className="bg-gray-300 w-full py-4">
         <div className="max-w-full mx-auto px-4">
           <div className="flex justify-between items-center">
             {/* Logo and Title */}
@@ -116,11 +115,6 @@ const Header: React.FC = () => {
                 Contact
               </a>
             </nav>
-
-            {/* Logo section (Hidden on small screens) */}
-            {/* <div className="hidden lg-custom:flex items-center space-x-4">
-              <img src={ieeeDelhiLogo} alt="IEEE Delhi Logo" className="h-16" />
-            </div> */}
           </div>
 
           {/* Mobile Menu */}

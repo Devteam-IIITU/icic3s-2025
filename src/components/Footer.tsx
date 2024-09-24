@@ -5,6 +5,7 @@ const Footer: React.FC = () => {
     <div className="footer font-[sans-serif] bg-zinc-900 text-gray-300">
       <div className="container mx-auto p-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+
           {/* Address Section */}
           <div className="footer-left">
             <h3 className="text-3xl font-semibold mb-2">Address</h3>
@@ -36,7 +37,7 @@ const Footer: React.FC = () => {
               <ul>
                 <li>
                   <a
-                    href="index.html"
+                    href="/"
                     className="flex items-center space-x-1 hover:text-yellow-400 transition duration-200"
                   >
                     <span>Home</span>
@@ -44,7 +45,7 @@ const Footer: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="about_us.html"
+                    href="/about"
                     className="flex items-center space-x-1 hover:text-yellow-400 transition duration-200"
                   >
                     <span>About</span>
@@ -52,7 +53,7 @@ const Footer: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="callforpaper.html"
+                    href="/callforpaper.html"
                     className="flex items-center space-x-1 hover:text-yellow-400 transition duration-200"
                   >
                     <span>Call for Paper</span>
@@ -62,7 +63,7 @@ const Footer: React.FC = () => {
               <ul>
                 <li>
                   <a
-                    href="papersub.html"
+                    href="/papersubmit"
                     className="flex items-center space-x-1 hover:text-yellow-400 transition duration-200"
                   >
                     <span>Submission</span>
@@ -70,7 +71,7 @@ const Footer: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="advisory.html"
+                    href="/advisory"
                     className="flex items-center space-x-1 hover:text-yellow-400 transition duration-200"
                   >
                     <span>Committee</span>
@@ -78,7 +79,7 @@ const Footer: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="contact_us.html"
+                    href="/contact"
                     className="flex items-center space-x-1 hover:text-yellow-400 transition duration-200"
                   >
                     <span>Contacts</span>
