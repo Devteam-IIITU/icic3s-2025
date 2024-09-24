@@ -2,7 +2,7 @@ const RegistrationFees = () => {
   return (
     <div className="flex flex-col w-full p-6 bg-white">
       <div className="mybox w-full overflow-auto">
-        <p className="text-center mb-4 text-lg font-semibold">
+        <p className="text-center mb-4 text-2xl font-semibold">
           The registration fees for National/International Authors/Participants are as follows:
         </p>
 
@@ -66,9 +66,9 @@ const RegistrationFees = () => {
       </div>
 
       {/* Payment Details */}
-      <h5 className="text-center font-bold mt-8 mb-4">Payment Details</h5>
-      <div className="myBoxCont2 overflow-x-auto">
-        <table className="min-w-full border-collapse border border-gray-300">
+      <h5 className="text-center font-bold text-2xl mt-8 mb-4">Payment Details</h5>
+      <div className="myBoxCont2 m-auto overflow-x-auto">
+        <table className="text-center min-w-full lg:min-w-96 border-collapse border border-gray-300">
           <tbody>
             <tr className="hover:bg-gray-50">
               <td className="p-4 border border-gray-300 font-semibold">Beneficiary Name</td>

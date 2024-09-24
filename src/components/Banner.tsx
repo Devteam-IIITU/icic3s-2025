@@ -11,14 +11,20 @@ const ConferenceBanner: React.FC = () => {
     >
       <div className="bg-black bg-opacity-60 flex flex-col items-center justify-center py-10">
         <h4 className="text-gray-200 text-shadow-xl p-5">
-          <span style={{ lineHeight: '1.4' }} className="font-bold font-[sans-serif] text-2xl sm:text-3xl md:text-4xl leading-[1.5]">
+          <span
+            style={{ lineHeight: "1.4" }}
+            className="font-bold font-[sans-serif] text-2xl sm:text-3xl md:text-4xl leading-[1.5]"
+          >
             INTERNATIONAL CONFERENCE <br /> ON <br /> INTEGRATED CIRCUITS,
             COMMUNICATION, AND COMPUTING SYSTEMS
             <br />
             (ICIC3S-2025)
           </span>
           <br />
-          <div style={{ lineHeight: '1.2' }} className="text-xl py-5 sm:text-2xl font-bold font-sans text-gray-200 tracking-wider text-shadow-xl pb-5 mt-5 leading-[1.5]">
+          <div
+            style={{ lineHeight: "1.2" }}
+            className="text-xl py-5 sm:text-2xl font-bold font-sans text-gray-200 tracking-wider text-shadow-xl pb-5 mt-5 leading-[1.5]"
+          >
             IEEE Conference ID: ______
             <br />
             (Hybrid Mode)
@@ -36,33 +42,64 @@ const ConferenceBanner: React.FC = () => {
                 </i>
               </h4>
             </div> */}
-            <div style={{ lineHeight: '1.4' }} className="w-full  lg:w-1/2 px-4">
-              <h4 className="text-white font-semibold text-shadow-lg leading-[1.5] text-lg sm:text-xl md:text-2xl font-sans">
+            <div className="w-full lg:w-1/2 px-4">
+              <h4 className="text-white font-semibold text-shadow-lg leading-[1.5] text-2xl sm:text-3xl md:text-3xl font-sans text-center mb-4">
                 Important Dates
-                <br />
-                <span className="font-semibold text-lg sm:text-xl md:text-2xl">
-                  <div className="flex items-center justify-center">
-                    <span className="font-semibold text-white text-lg sm:text-xl md:text-2xl text-shadow-lg leading-[1.5]">
-                      Full Paper Submission Deadline:&nbsp;
-                    </span>
-                    <div className="flex flex-col items-center">
-                      <span className="font-semibold text-yellow-400 text-base sm:text-lg md:text-xl leading-[1.5]">
-                        &nbsp;29 February, 2024
-                      </span>
-                      <span className="font-semibold text-white text-sm sm:text-lg md:text-xl leading-[1.5] line-through decoration-yellow-400">
-                        31 January, 2024
-                      </span>
-                    </div>
-                  </div>
-                  Acceptance Notification Deadline: 10 April, 2024
-                  <br />
-                  Camera Ready Manuscript Deadline: 25 April, 2024
-                  <br />
-                  Conference Registration Deadline: 01 May, 2024
-                  <br />
-                  Conference Dates: 01-02 June, 2024
-                </span>
               </h4>
+              <table className="min-w-full text-lg lg:text-xl bg-transparent border-collapse">
+                <thead>
+                  <tr>
+                    <th className="text-white text-xl lg:text2xl font-[sans-serif] text-center py-2 px-4 border-b border-gray-600">
+                      Event
+                    </th>
+                    <th className="text-white text-xl lg:text2xl font-[sans-serif] text-center py-2 px-4 border-b border-gray-600">
+                      Deadline
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="text-white py-2 px-4 border-b border-gray-600">
+                      Full Paper Submission Deadline
+                    </td>
+                    <td className="text-yellow-400 py-2 px-4 border-b border-gray-600">
+                      29 February, 2024
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="text-white py-2 px-4 border-b border-gray-600">
+                      Acceptance Notification Deadline
+                    </td>
+                    <td className="text-white py-2 px-4 border-b border-gray-600">
+                      10 April, 2024
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="text-white py-2 px-4 border-b border-gray-600">
+                      Camera Ready Manuscript Deadline
+                    </td>
+                    <td className="text-white py-2 px-4 border-b border-gray-600">
+                      25 April, 2024
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="text-white py-2 px-4 border-b border-gray-600">
+                      Conference Registration Deadline
+                    </td>
+                    <td className="text-white py-2 px-4 border-b border-gray-600">
+                      01 May, 2024
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="text-white py-2 px-4 border-b border-gray-600">
+                      Conference Dates
+                    </td>
+                    <td className="text-white py-2 px-4 border-b border-gray-600">
+                      01-02 June, 2024
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>

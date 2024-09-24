@@ -17,8 +17,8 @@ const Features: React.FC = () => {
       <div className="container-fluid bg-neutral-300 p-10">
         <div className="flex flex-col lg:flex-row">
           {/* Text Content */}
-          <div className="w-full lg:w-3/4 flex font-[sans-serif] flex-col justify-center p-6 lg:pl-20 lg:pr-10 order-2 lg:order-1">
-            <p className="text-justify text-black text-xl leading-relaxed ">
+          <div className="w-full lg:w-3/4 flex font-[sans-serif] flex-col justify-center pt-4 p-2 lg:p-6 lg:pl-20 lg:pr-10 order-2 lg:order-1">
+            <p className=" text-center lg:text-justify text-black text-base lg:text-xl leading-relaxed ">
               International Conference on <strong>“Integrated Circuits, Communication, and Computing Systems
               (ICIC3S-2025)”</strong> is the premier forum for showcasing recent developments and research
               findings in the domains of integrated circuits, microwave, communication, and next generation
@@ -28,8 +28,8 @@ const Features: React.FC = () => {
               communication systems.
             </p>
           </div>
-          <div className="w-full lg:w-1/2 flex justify-center items-center order-1 lg:order-2">
-            <img src={adminImage} alt="Conference Image" className=" h-[400px] w-auto max-w-full object-cover" />
+          <div className="w-full lg:w-1/2 flex justify-center items-center order-1 rounded lg:order-2">
+            <img src={adminImage} alt="Conference Image" className="h-[250px] lg:h-[400px] w-auto border-4 rounded max-w-full object-cover" />
           </div>
         </div>
       </div>
