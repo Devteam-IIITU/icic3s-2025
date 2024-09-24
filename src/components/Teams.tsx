@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../constants/Card';
-import { teamMembers } from '../constants/constants'; // Adjust the import path
+import { teamMembers } from '../constants/constants'; 
 
 const TeamSection: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const TeamSection: React.FC = () => {
         <section key={sectionTitle} className="our-team team-11">
           <div className="container mx-auto">
             <div className="session-title text-center mt-10 mb-8">
-              <h2 className="text-4xl font-bold text-forestgreen">
+              <h2 className="text-2xl lg:text-4xl font-bold text-forestgreen">
                 {sectionTitle.replace(/([A-Z])/g, ' $1').toUpperCase()}
               </h2>
             </div>

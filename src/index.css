@@ -46,6 +46,3 @@ body {
   z-index: 100;
 }
 
-.element {
-  width: calc(100% - 11px); 
-}

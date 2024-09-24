@@ -9,9 +9,7 @@ import Footer from "./components/Footer.tsx";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Header />
-    <div className="pt-28 ">
-      <App />
-    </div>
+    <App />
     <Footer />
   </StrictMode>
 );

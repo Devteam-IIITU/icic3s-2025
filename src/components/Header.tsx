@@ -9,7 +9,7 @@ const Header: React.FC = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="element fixed top-0 left-0">
+    <header className="top-0 left-0 z-101">
       {/* Top bar with contact info */}
       <div className="bg-blue-950 px-4 lg-custom:px-10 text-xl text-white py-2">
         <div className="max-w-full mx-auto">
@@ -187,12 +187,6 @@ const Header: React.FC = () => {
                 About
               </a>
               <div className="flex flex-col items-center">
-                <button
-                  className="text-gray-900 hover:text-green-700 font-sans text-lg py-2"
-                  onClick={toggleMenu}
-                >
-                  Committee <span className="ml-1">&#9662;</span>
-                </button>
                 <div className="mt-2 space-y-2">
                   <a
                     href="/advisory"

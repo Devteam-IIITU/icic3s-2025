@@ -5,7 +5,7 @@ const ContactPage: React.FC = () => {
   return (
     <div>
       {/* Contact Form Section */}
-      <div className="container mx-auto p-12">
+      <div className="container mx-auto p-4 lg:p-12">
         <div className="flex flex-col md:flex-row gap-8">
           {/* Contact Form */}
           <div className="w-full md:w-1/2 bg-white p-8 shadow-md rounded-lg">
@@ -60,11 +60,10 @@ const ContactPage: React.FC = () => {
               />
             </form>
           </div>
-
           {/* Address Section */}
           <div className="w-full md:w-1/2 bg-white p-8 shadow-md flex flex-col lg:flex:row rounded-lg">
             <h2 className="text-2xl lg:text-3xl font-bold mb-6">Address</h2>
-            <p>
+            <p className="text-lg lg:text-xl">
               Indian Institute of Information Technology Una <br /> Himachal
               Pradesh, <br /> Saloh (HP) - 177209 <br />
               Phone: (+91) 98370-12205 <br />
@@ -94,7 +93,7 @@ const ContactPage: React.FC = () => {
           </h1>
         </div>
         <div className="flex justify-center items-center p-4">
-          <img src={i1} alt="IIIT Una Map" className="w-4/5 h-auto" />
+          <img src={i1} alt="IIIT Una Map" className="w-full lg:w-4/5 h-auto" />
         </div>
       </div>
     </div>
