@@ -148,9 +148,8 @@ const Header: React.FC = () => {
               >
                 Registration
               </a>
-              <a href="/contact" className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium">
               <a
-                href="contact_us.html"
+                href="/contact"
                 className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium"
               >
                 Contact
@@ -216,45 +215,41 @@ const Header: React.FC = () => {
                   >
                     Technical Program Committee
                   </a>
+                  <a
+                    href="/callforpaper"
+                    className="block text-gray-900 hover:text-green-700 font-sans text-lg py-2"
+                    onClick={closeMenu}
+                  >
+                    Call for Paper
+                  </a>
+                  <a
+                    href="/papersubmit"
+                    className="block text-gray-900 hover:text-green-700 font-sans text-lg py-2"
+                    onClick={closeMenu}
+                  >
+                    Paper Submission
+                  </a>
+                  <a
+                    href="/register"
+                    className="block text-gray-900 hover:text-green-700 font-sans text-lg py-2"
+                    onClick={closeMenu}
+                  >
+                    Registration
+                  </a>
+                  <a
+                    href="/contact"
+                    className="block text-gray-900 hover:text-green-700 font-sans text-lg py-2"
+                    onClick={closeMenu}
+                  >
+                    Contact
+                  </a>
                 </div>
-                <a href="/callforpaper" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Call for Paper</a>
-                <a href="/papersubmit" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Paper Submission</a>
-                <a href="/register" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Registration</a>
-                <a href="/contact" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Contact</a>
-              </nav>
               </div>
-              <a
-                href="/callforpaper"
-                className="block text-gray-900 hover:text-green-700 font-sans text-lg py-2"
-                onClick={closeMenu}
-              >
-                Call for Paper
-              </a>
-              <a
-                href="/papersubmit"
-                className="block text-gray-900 hover:text-green-700 font-sans text-lg py-2"
-                onClick={closeMenu}
-              >
-                Paper Submission
-              </a>
-              <a
-                href="/register"
-                className="block text-gray-900 hover:text-green-700 font-sans text-lg py-2"
-                onClick={closeMenu}
-              >
-                Registration
-              </a>
-              <a
-                href="contact_us.html"
-                className="block text-gray-900 hover:text-green-700 font-sans text-lg py-2"
-                onClick={closeMenu}
-              >
-                Contact
-              </a>
             </div>
           </div>
         </div>
       </div>
+      {/* </div> */}
     </header>
   );
 };
