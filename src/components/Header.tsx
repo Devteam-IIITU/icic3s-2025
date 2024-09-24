@@ -112,7 +112,7 @@ const Header: React.FC = () => {
               <a href="/register" className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium">
                 Registration
               </a>
-              <a href="contact_us.html" className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium">
+              <a href="/contact" className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium">
                 Contact
               </a>
             </nav>
@@ -146,7 +146,7 @@ const Header: React.FC = () => {
                 <a href="/callforpaper" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Call for Paper</a>
                 <a href="/papersubmit" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Paper Submission</a>
                 <a href="/register" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Registration</a>
-                <a href="contact_us.html" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Contact</a>
+                <a href="/contact" className="block text-gray-900 hover:text-green-700 font-sans text-lg">Contact</a>
               </nav>
             </div>
           )}
