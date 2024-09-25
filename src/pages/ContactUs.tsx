@@ -13,7 +13,7 @@ const ContactPage: React.FC = () => {
               Contact Form
             </h2>
             <form
-              action="mailto:icic3s2024@iiitu.ac.in"
+              action="mailto:23165@iiitu.ac.in"
               method="post"
               encType="text/plain"
             >

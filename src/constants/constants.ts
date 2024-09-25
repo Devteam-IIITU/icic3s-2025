@@ -1,129 +1,170 @@
-import raviSharma from "../assets/images/ravi_sharma_bog.png";
+import ManishGaur from "../assets/images/faculty/mg.png";
+import AnkurKumar from "../assets/images/faculty/ak.jpg";
+import NamanGarg from "../assets/images/faculty/naman.png";
+import MrityunjaySingh from "../assets/images/faculty/mj.png";
+import VikramKumar from "../assets/images/faculty/vk.jpg";
+import NaveenCheggoju from "../assets/images/faculty/nc.png";
+import NishthaHooda from "../assets/images/faculty/n.png";
+import KishoreVejandla from "../assets/images/faculty/vk.png";
+import AshwiniKumar from "../assets/images/faculty/akm.png";
+import ShivDutt from "../assets/images/faculty/sd.png";
+import ShatrughanModi from "../assets/images/faculty/sm.png";
+import Sanjit from "../assets/images/faculty/sn.png";
+import TanuWadhera from "../assets/images/faculty/tw.png";
+import GurpreetKaur from "../assets/images/faculty/gk.png";
+import ShonalChouksey from "../assets/images/faculty/sc.jpg";
+import AnkurThakur from "../assets/images/faculty/at.png";
+import NikunjGoyal from "../assets/images/faculty/ng.png";
+import AkhilWalia from "../assets/images/faculty/aw.png";
+import JaspreetKaur from "../assets/images/faculty/jk.png";
+import Laxmanika from "../assets/images/faculty/lk.png";
+import SatishKumar from "../assets/images/faculty/sk.png";
+import PayalSharma from "../assets/images/faculty/payal.png";
+import DivyanshThakur from "../assets/images/faculty/dk.png";
+import PranshuSharma from "../assets/images/faculty/ps.png";
+
 import i2 from "../assets/images/top-view-circuit-board-close-up.jpg";
 import i3 from "../assets/images/telecommunications-towers-against-cloudy-sky.jpg";
 import i4 from "../assets/images/computing.jpg";
 import i5 from "../assets/images/standard-quality-control-concept-m.jpg";
 
 export const teamMembers = {
-  chiefPatron: [
-    {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
-    },
-    {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
-    },
-  ],
   patron: [
     {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
-    },
-  ],
-  executiveGeneralChair: [
-    {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
-    },
-  ],
-  generalChair: [
-    {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
-    },
-    {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
+      image: ManishGaur,
+      name: "Prof. Manish Gaur",
+      post: "Director, IIIT Una",
     },
   ],
   conferenceChair: [
     {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
+      image: AnkurKumar,
+      name: "Dr. Ankur Kumar",
+      post: "IIIT Una",
     },
     {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
+      image: NamanGarg,
+      name: "Dr. Naman Garg",
+      post: "IIIT Una",
     },
     {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
-    },
-    {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
+      image: MrityunjaySingh,
+      name: "Dr. Mrityunjay Singh",
+      post: "IIIT Una",
     },
   ],
   technicalProgramChair: [
     {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
+      image: VikramKumar,
+      name: "Dr. Vikram Kumar",
+      post: "IIIT Una",
     },
     {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
-    },
-    {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
+      image: NaveenCheggoju,
+      name: "Dr. Naveen Cheggoju",
+      post: "IIIT Una",
     },
   ],
   publicationChair: [
     {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
+      image: NishthaHooda,
+      name: "Dr. Nishtha Hooda",
+      post: "IIIT Una",
     },
     {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
-    },
-    {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
-    },
-    {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
+      image: KishoreVejandla,
+      name: "Dr. Kishore Vejandla",
+      post: "IIIT Una",
     },
   ],
   publicityChair: [
     {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
+      image: AshwiniKumar,
+      name: "Dr. Ashwini Kumar Malviya",
+      post: "IIIT Una",
     },
     {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
+      image: ShivDutt,
+      name: "Dr. Shiv Dutt Sharma",
+      post: "IIIT Una",
+    },
+  ],
+  organisingSecretary: [
+    {
+      image: ShatrughanModi,
+      name: "Dr. Shatrughan Modi",
+      post: "IIIT Una",
     },
     {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
+      image: Sanjit,
+      name: "Dr. Sanjit Ningthoujam",
+      post: "IIIT Una",
     },
     {
-      image: raviSharma,
-      name: "Shri Ravi Sharma",
-      post: "Chairperson, BoG IIIT Una",
+      image: TanuWadhera,
+      name: "Dr. Tanu Wadhera",
+      post: "IIIT Una",
+    },
+    {
+      image: GurpreetKaur,
+      name: "Dr. Gurpreet Kaur",
+      post: "IIIT Una",
+    },
+  ],
+  tutorialChair: [
+    {
+      image: ShonalChouksey,
+      name: "Dr. Shonal Chouksey",
+      post: "IIIT Una",
+    },
+    {
+      image: AnkurThakur,
+      name: "Dr. Ankur Thakur",
+      post: "IIIT Una",
+    },
+  ],
+  financeChair: [
+    {
+      image: NikunjGoyal,
+      name: "Dr. Nikunj Goyal",
+      post: "IIIT Una",
+    },
+    {
+      image: AkhilWalia,
+      name: "Dr. Akhil Walia",
+      post: "IIIT Una",
+    },
+    {
+      image: JaspreetKaur,
+      name: "Dr. Jaspreet Kaur",
+      post: "IIIT Una",
+    },
+    {
+      image: Laxmanika,
+      name: "Ms. Laxmanika",
+      post: "IIIT Una",
+    },
+  ],
+  Registrations: [
+    {
+      image: SatishKumar,
+      name: "Dr. Satish Kumar",
+      post: "IIIT Una",
+    },
+    {
+      image: PayalSharma,
+      name: "Dr. Payal Sharma",
+      post: "IIIT Una",
+    },
+    {
+      image: DivyanshThakur,
+      name: "Dr. Divyansh Thakur",
+      post: "IIIT Una",
+    },
+    {
+      image: PranshuSharma,
+      name: "Ms. Pranshu Sharma",
+      post: "IIIT Una",
     },
   ],
 };
