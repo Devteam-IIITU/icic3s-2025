@@ -8,17 +8,17 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ Image, Name, Post }) => {
   return (
-    <div className="lg:w-[400px] md:w-[400px] sm:w-[300px] w-[300px] p-4">
+    <div className="lg:w-[340px] md:w-[340px] sm:w-[300px] w-[300px] p-4">
       <div className="bg-neutral-300 shadow-xl rounded-lg overflow-hidden text-center">
         <div className="p-4">
           <img
             src={Image}
             alt={Name}
             className="object-cover rounded-md 
-                       lg:w-[368px] lg:h-[368px] 
-                       md:w-[368px] md:h-[368px] 
+                       lg:w-[300px] lg:h-[300px]
+                       md:w-[300px] md:h-[300px] 
                        sm:w-[268px] sm:h-[268px] 
-                       w-[268px] h-[268px] 
+                       w-[268px] h-[268px]
                        max-w-full max-h-full"
           />
           <div className="mt-4">

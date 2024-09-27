@@ -492,3 +492,15 @@ export const committees = [
     ],
   },
 ];
+
+export const events = [
+  {
+    date: "29 Feb., 2024",
+    title: "Full Paper Submission Deadline",
+    isHighlighted: true,
+  },
+  { date: "10 April, 2024", title: "Acceptance Notification Deadline" },
+  { date: "25 April, 2024", title: "Camera Ready Manuscript Deadline" },
+  { date: "01 May, 2024", title: "Conference Registration Deadline" },
+  { date: "01-02 June, 2024", title: "Conference Dates" },
+];
