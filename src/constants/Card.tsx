@@ -23,7 +23,7 @@ const Card: React.FC<CardProps> = ({ Image, Name, Post }) => {
           />
           <div className="mt-4">
             <h4 className="text-2xl font-semibold">{Name}</h4>
-            <p className="text-gray-500 italic text-lg">{Post}</p>
+            <p className="text-gray-700 italic text-lg">{Post}</p>
           </div>
         </div>
       </div>

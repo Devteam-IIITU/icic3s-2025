@@ -1,7 +1,35 @@
-import React from "react";
+import React, { FormEvent } from "react";
+import emailjs from "emailjs-com";
 import i1 from "../assets/images/iiitumap.svg";
 
 const ContactPage: React.FC = () => {
+  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const serviceId = import.meta.env.VITE_SERVICE_ID || "";
+    const templateId = import.meta.env.VITE_TEMPLATE_ID || "";
+    const userId = import.meta.env.VITE_USER_ID || "";
+    console.log("Service ID:", serviceId);
+    console.log("Template ID:", templateId);
+    console.log("User ID:", userId);
+
+    if (serviceId && templateId && userId) {
+      emailjs.sendForm(serviceId, templateId, e.currentTarget, userId).then(
+        (result) => {
+          console.log("Email sent successfully:", result.text);
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          console.error("Error sending email:", error.text);
+          alert("Failed to send message. Please try again.");
+        }
+      );
+      e.currentTarget.reset();
+    } else {
+      alert("Environment variables are not correctly set. Please check.");
+    }
+  };
+
   return (
     <div>
       {/* Contact Form Section */}
@@ -12,11 +40,7 @@ const ContactPage: React.FC = () => {
             <h2 className="text-2xl lg:text-3xl font-bold mb-6">
               Contact Form
             </h2>
-            <form
-              action="mailto:23165@iiitu.ac.in"
-              method="post"
-              encType="text/plain"
-            >
+            <form onSubmit={sendEmail}>
               <div className="mb-4">
                 <label className="block font-semibold">Enter Name</label>
                 <input
@@ -24,6 +48,7 @@ const ContactPage: React.FC = () => {
                   placeholder="Enter Name"
                   name="Name"
                   className="w-full border border-gray-300 rounded-md p-2 mt-1"
+                  required
                 />
               </div>
               <div className="mb-4">
@@ -33,6 +58,7 @@ const ContactPage: React.FC = () => {
                   name="Email"
                   placeholder="Enter Email Address"
                   className="w-full border border-gray-300 rounded-md p-2 mt-1"
+                  required
                 />
               </div>
               <div className="mb-4">
@@ -51,6 +77,7 @@ const ContactPage: React.FC = () => {
                   placeholder="Enter Your Message"
                   className="w-full border border-gray-300 rounded-md p-2 mt-1"
                   name="Message"
+                  required
                 ></textarea>
               </div>
               <input

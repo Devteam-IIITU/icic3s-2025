@@ -5,7 +5,7 @@ import Timeline from "./Timeline";
 const ConferenceBanner: React.FC = () => {
   return (
     <div
-      className="bg-cover bg-center text-center"
+      className="bg-cover bg-center text-center -z-10 "
       style={{
         backgroundImage: `url(${Background})`,
       }}
@@ -104,22 +104,20 @@ const ConferenceBanner: React.FC = () => {
               <Timeline />
             </div> */}
             <div className="container mx-auto">
-              <h4 className="text-white font-semibold text-shadow-lg leading-[1.5] text-3xl sm:text-3xl md:text-4xl font-sans text-center mb-20">
+              <h4 className="text-white font-semibold text-shadow-lg leading-[1.5] text-3xl sm:text-3xl md:text-4xl font-sans text-center mb-20 lg:mb-10">
                 Important Dates
               </h4>
-              <div className="flex justify-center">
                 <div className="w-full px-4">
                   <Timeline />
-                </div>
               </div>
             </div>
           </div>
         </div>
-        {/* <h4 style={{ lineHeight: '1.4' }} className="font-bold text-white text-shadow-lg leading-[1.5] text-xl sm:text-2xl md:text-2xl pt-10 font-Segoe_UI">
+        <h4 style={{ lineHeight: '1.4' }} className="font-bold text-white text-shadow-lg leading-[1.5] text-xl sm:text-2xl md:text-2xl pt-10 font-Segoe_UI">
           Organised by <br /> School of Electronics <br />
           Indian Institute of Information Technology Una <br />
           Himachal Pradesh - 177209
-        </h4> */}
+        </h4>
       </div>
     </div>
   );

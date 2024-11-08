@@ -9,7 +9,7 @@ const Header: React.FC = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="top-0 left-0 z-101">
+    <header className="top-0 left-0 z-20 ">
       {/* Top bar with contact info */}
       <div className="bg-blue-950 px-4 lg-custom:px-10 text-xl text-white py-2">
         <div className="max-w-full mx-auto">
@@ -149,6 +149,14 @@ const Header: React.FC = () => {
                 Registration
               </a>
               <a
+                href="https://ieeexplore.ieee.org/xpl/conhome/10602773/proceeding"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium"
+              >
+                ICIC3S 2024
+              </a>
+              <a
                 href="/contact"
                 className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium"
               >
@@ -159,7 +167,7 @@ const Header: React.FC = () => {
 
           {/* Mobile Menu */}
           <div
-            className={`lg-custom:hidden fixed inset-0 bg-gray-300 transition-transform duration-300 ease-in-out transform ${
+            className={`lg-custom:hidden z-5 fixed inset-0 bg-gray-300 transition-transform duration-300 ease-in-out transform ${
               isOpen ? "translate-y-0" : "-translate-y-full"
             }`}
           >
@@ -229,6 +237,15 @@ const Header: React.FC = () => {
                     onClick={closeMenu}
                   >
                     Registration
+                  </a>
+                  <a
+                    href="https://ieeexplore.ieee.org/xpl/conhome/10602773/proceeding"
+                    className="block text-gray-900 hover:text-green-700 font-sans text-lg py-2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={closeMenu}
+                  >
+                    ICIC3S 2024
                   </a>
                   <a
                     href="/contact"

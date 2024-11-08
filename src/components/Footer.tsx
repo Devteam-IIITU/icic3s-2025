@@ -95,7 +95,7 @@ const Footer: React.FC = () => {
       <div className="bg-zinc-800 text-white py-4">
         <div className="container mx-auto text-center">
           <p className="text-base">
-            © 2025 ICIC3S. All rights reserved. | Designed by
+            © 2025 ICIC3S. All rights reserved. | Made by
             <a
               href="https://www.linkedin.com/in/vansh-verma-07932a27b"
               target="_blank"

@@ -145,10 +145,10 @@ export const teamMembers = {
       post: "IIIT Una",
     },
   ],
-  Registrations: [
+  RegistrationDesk: [
     {
       image: SatishKumar,
-      name: "Dr. Satish Kumar",
+      name: "Mr. Satish Kumar",
       post: "IIIT Una",
     },
     {
@@ -192,14 +192,14 @@ export const places = [
       "https://tse3.mm.bing.net/th?id=OIP.LqBfl9kVVKlBMJj575pcVgHaE8&pid=Api&P=0&h=220",
   },
   {
-    placeName: "Temples",
+    placeName: "Temples of ",
     location: "Himachal",
     link: "https://traveltriangle.com/blog/temples-in-himachal-pradesh/",
     imageUrl:
       "https://assets.traveltriangle.com/blog/wp-content/uploads/2019/12/Chintpurni-Temple.jpg",
   },
   {
-    placeName: "Forts",
+    placeName: "Fort",
     location: "Kangra",
     link: "https://himachaltourism.gov.in/destination/architectural/",
     imageUrl:
@@ -207,7 +207,7 @@ export const places = [
   },
   {
     placeName: "Fairs & Fests",
-    location: "Himachal",
+    location: "of Himachal",
     link: "https://himachaltourism.gov.in/fairs-fests/",
     imageUrl:
       "https://tse1.mm.bing.net/th?id=OIP.gl_Tirv3u4JGp6YUXRjaMQHaEW&pid=Api&P=0&h=220",
@@ -242,7 +242,7 @@ export const soe =
 
 export const tracksData = [
   {
-    title: "Integrated Devices and Circuits",
+    title: "Track 01: Integrated Devices and Circuits",
     topics: [
       "Electronic Devices",
       "Analog, Digital & Mixed Signal Design",
@@ -260,7 +260,7 @@ export const tracksData = [
     image: i2,
   },
   {
-    title: "RF, Microwave and mmWave",
+    title: "Track 02: RF, Microwave and mmWave",
     topics: [
       "Microwave Communications",
       "Advanced RF Measurement Techniques",
@@ -274,7 +274,7 @@ export const tracksData = [
     image: i3,
   },
   {
-    title: "Communication and Signal Processing",
+    title: "Track 03: Communication and Signal Processing",
     topics: [
       "Communication Theory and Applications",
       "Wireless Sensors and Ad Hoc Networks",
@@ -295,7 +295,7 @@ export const tracksData = [
     image: i4,
   },
   {
-    title: "Artificial Intelligence, Data Analytics & Computing",
+    title: "Track 04: Artificial Intelligence, Data Analytics & Computing",
     topics: [
       "Computer Vision",
       "Embedded Systems",
