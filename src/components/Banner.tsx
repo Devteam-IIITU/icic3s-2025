@@ -1,10 +1,11 @@
 import React from "react";
 import Background from "../assets/images/Back_image.jpeg"; // Correct import
+import Timeline from "./Timeline";
 
 const ConferenceBanner: React.FC = () => {
   return (
     <div
-      className="bg-cover bg-center text-center"
+      className="bg-cover bg-center text-center -z-10 "
       style={{
         backgroundImage: `url(${Background})`,
       }}
@@ -21,14 +22,14 @@ const ConferenceBanner: React.FC = () => {
             (ICIC3S-2025)
           </span>
           <br />
-          <div
+          {/* <div
             style={{ lineHeight: "1.2" }}
             className="text-xl py-5 sm:text-2xl font-bold font-sans text-gray-200 tracking-wider text-shadow-xl pb-5 mt-5 leading-[1.5]"
           >
             IEEE Conference ID: ______
             <br />
             (Hybrid Mode)
-          </div>
+          </div> */}
         </h4>
 
         <div className="container py-10 mx-auto">
@@ -41,8 +42,8 @@ const ConferenceBanner: React.FC = () => {
                   quality requirement.
                 </i>
               </h4>
-            </div> */}
-            <div className="w-full lg:w-1/2 px-4">
+            </div>
+            <div className="w-full px-4">
               <h4 className="text-white font-semibold text-shadow-lg leading-[1.5] text-2xl sm:text-3xl md:text-3xl font-sans text-center mb-4">
                 Important Dates
               </h4>
@@ -100,14 +101,23 @@ const ConferenceBanner: React.FC = () => {
                   </tr>
                 </tbody>
               </table>
+              <Timeline />
+            </div> */}
+            <div className="container mx-auto">
+              <h4 className="text-white font-semibold text-shadow-lg leading-[1.5] text-3xl sm:text-3xl md:text-4xl font-sans text-center mb-20 lg:mb-10">
+                Important Dates
+              </h4>
+                <div className="w-full px-4">
+                  <Timeline />
+              </div>
             </div>
           </div>
         </div>
-        {/* <h4 style={{ lineHeight: '1.4' }} className="font-bold text-white text-shadow-lg leading-[1.5] text-xl sm:text-2xl md:text-2xl pt-10 font-Segoe_UI">
+        <h4 style={{ lineHeight: '1.4' }} className="font-bold text-white text-shadow-lg leading-[1.5] text-xl sm:text-2xl md:text-2xl pt-10 font-Segoe_UI">
           Organised by <br /> School of Electronics <br />
           Indian Institute of Information Technology Una <br />
           Himachal Pradesh - 177209
-        </h4> */}
+        </h4>
       </div>
     </div>
   );
