@@ -22,6 +22,11 @@ import SatishKumar from "../assets/images/faculty/sk.png";
 import PayalSharma from "../assets/images/faculty/payal.png";
 import DivyanshThakur from "../assets/images/faculty/dk.png";
 import PranshuSharma from "../assets/images/faculty/ps.png";
+import AshishRaman from "../assets/images/faculty/AshishRaman.png"
+import MohitDua from '../assets/images/faculty/MohitDua.png'
+import SamayveerSingh from '../assets/images/faculty/SamayveerSingh.png'
+import PankajVerma from '../assets/images/faculty/PankajVerma.png'
+
 
 import i2 from "../assets/images/top-view-circuit-board-close-up.jpg";
 import i3 from "../assets/images/telecommunications-towers-against-cloudy-sky.jpg";
@@ -52,30 +57,55 @@ export const teamMembers = {
       name: "Dr. Mrityunjay Singh",
       post: "IIIT Una",
     },
+    {
+      image: ShatrughanModi,
+      name: "Dr. Shatrughan Modi",
+      post: "IIIT Una",
+    },
   ],
   technicalProgramChair: [
     {
-      image: VikramKumar,
-      name: "Dr. Vikram Kumar",
+      image: AshishRaman,
+      name: "Dr. Ashish Raman",
+      post: "NIT Jalandhar",
+    },
+    {
+      image: MohitDua,
+      name: "Dr. Mohit Dua",
+      post: "NIT Kurukshetra",
+    },
+    {
+      image: ShivDutt,
+      name: "Dr. Shiv Dutt Sharma",
       post: "IIIT Una",
     },
     {
-      image: NaveenCheggoju,
-      name: "Dr. Naveen Cheggoju",
+      image: Sanjit,
+      name: "Dr. Sanjit Ningthoujam",
       post: "IIIT Una",
-    },
+    }
   ],
   publicationChair: [
     {
-      image: NishthaHooda,
-      name: "Dr. Nishtha Hooda",
-      post: "IIIT Una",
+      image: SamayveerSingh,
+      name: "Dr. Samayveer Singh",
+      post: "NIT Jalandhar",
+    },
+    {
+      image: PankajVerma,
+      name: "Dr. Pankaj Verma",
+      post: "NIT Kurukshetra",
     },
     {
       image: KishoreVejandla,
-      name: "Dr. Kishore Vejandla",
+      name: "Dr. Vejandla Kishore",
       post: "IIIT Una",
     },
+    {
+      image: AshwiniKumar,
+      name: "Dr. Ashwini Kumar Malviya",
+      post: "IIIT Una",
+    }
   ],
   publicityChair: [
     {
@@ -260,55 +290,63 @@ export const tracksData = [
     image: i2,
   },
   {
-    title: "Track 02: RF, Microwave and mmWave",
+    title: "Track 02: Communication, Signal Processing and Microwave Antennas",
     topics: [
+      "Communication Theory and Applications",
+      "Algorithms and Techniques for 5G and beyond",
+      "Wireless sensors and Ad Hoc Networks",
+      "Vehicular Communications and Networks",
+      "Under water communication",
+      "Software Defined Radio",
+      "Cognitive Radio and Spectrum Management",
+      "Intelligent Protocols for Communication Systems and Networks",
+      "Signal Processing: Theory, Methods, and Applications",
+      "Signal Processing Systems and Architectures",
+      "Machine-to-Machine Communications",
+      "Adaptive Communication Systems and Networks",
       "Microwave Communications",
-      "Advanced RF Measurement Techniques",
+      "Advanced RF measurement techniques",
       "Antenna Design for Communication Systems and Networks",
-      "Antennas and Systems for 5G and Beyond",
-      "Metamaterials for Antennas",
-      "Millimeter, Terahertz Antennas and Systems",
-      "Tunable and Reconfigurable Antennas",
-      "RF Filters and Microwave Absorbers",
+      "Antennas and systems for 5G and beyond",
+      "Metamaterials for antennas",
+      "Millimeter, Terahertz antennas and systems",
+      "MIMO, Massive-MIMO and OFDM",
+      "Terrestrial, Earth-Space and Ionospheric propagation",
+      "Tunable and reconfigurable antennas"
     ],
     image: i3,
   },
   {
-    title: "Track 03: Communication and Signal Processing",
-    topics: [
-      "Communication Theory and Applications",
-      "Wireless Sensors and Ad Hoc Networks",
-      "Vehicular Communications and Networks",
-      "Molecular Communications",
-      "MIMO, Massive-MIMO and OFDM",
-      "Underwater Communication",
-      "Software Defined Radio",
-      "Cognitive Radio and Spectrum Management",
-      "Intelligent Protocols for Communication Systems",
-      "Machine-to-Machine Communication Systems",
-      "Signal Processing: Theory, Methods, and Applications",
-      "Signal Processing Systems and Architectures",
-      "Adaptive Communication Systems and Networks",
-      "Optical Wireless",
-      "Fiber Communication",
-    ],
-    image: i4,
-  },
-  {
-    title: "Track 04: Artificial Intelligence, Data Analytics & Computing",
+    title: "Track 03:  Artificial Intelligence, Data Analytics & Computing",
     topics: [
       "Computer Vision",
       "Embedded Systems",
       "Intelligent Robotics",
-      "Internet of Things and its Applications",
-      "Artificial Intelligence and its Applications",
+      "Internet of Things and its applications",
+      "Artificial Intelligence and applications",
       "Soft Computing",
       "Quantum Computing",
       "Neural Network and Machine Learning",
       "Multimedia Signal Processing",
       "Speech Signal Processing",
       "Image and Video Processing",
+      "Biomedical Signal computing"
+    ],
+    image: i4,
+  },
+  {
+    title: "Track 04: Biomedical Engineering and Healthcare Technologies",
+    topics: [
+      "Medical Imaging Techniques",
+      "Biomechanics and Biomaterials",
+      "Wearable Health Monitoring Devices",
+      "Rehabilitation Engineering",
+      "Medical Robotics and Automation",
       "Biomedical Signal Processing",
+      "Healthcare Information Systems",
+      "Assistive Technologies for Disabilities",
+      "Telemedicine and Remote Healthcare",
+      "Bioinformatics and Computational Biology in Healthcare"
     ],
     image: i5,
   },

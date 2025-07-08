@@ -12,7 +12,7 @@ const TrackSection: React.FC<TrackProps> = ({ title, topics, image }) => {
       <h3 className="text-3xl font-bold text-gray-800 mb-6 text-center">
         {title}
       </h3>
-      <div className="flex flex-col md:flex-row md:justify-between md:items-start">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-center">
         <div className="md:w-1/2 mb-6 md:mb-0">
           <h4 className="text-base md:text-xl lg:text-2xl font-semibold text-gray-700 mb-4">
             Topics
@@ -32,7 +32,7 @@ const TrackSection: React.FC<TrackProps> = ({ title, topics, image }) => {
           <img
             src={image}
             alt={`Track: ${title}`}
-            className="w-full h-60 sm:h-64 md:h-60 lg:h-80 object-cover rounded-lg shadow-md transition-transform duration-300 transform hover:scale-105"
+            className="w-full h-60 sm:h-64 md:h-60 lg:h-[60vh] object-cover rounded-lg shadow-md transition-transform duration-300 transform hover:scale-105"
           />
         </div>
       </div>
