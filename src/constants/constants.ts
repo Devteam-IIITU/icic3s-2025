@@ -2,7 +2,6 @@ import ManishGaur from "../assets/images/faculty/mg.png";
 import AnkurKumar from "../assets/images/faculty/ak.jpg";
 import NamanGarg from "../assets/images/faculty/naman.png";
 import MrityunjaySingh from "../assets/images/faculty/mj.png";
-import VikramKumar from "../assets/images/faculty/vk.jpg";
 import NaveenCheggoju from "../assets/images/faculty/nc.png";
 import NishthaHooda from "../assets/images/faculty/n.png";
 import KishoreVejandla from "../assets/images/faculty/vk.png";
@@ -26,6 +25,11 @@ import AshishRaman from "../assets/images/faculty/AshishRaman.png"
 import MohitDua from '../assets/images/faculty/MohitDua.png'
 import SamayveerSingh from '../assets/images/faculty/SamayveerSingh.png'
 import PankajVerma from '../assets/images/faculty/PankajVerma.png'
+import PreetiVerma from '../assets/images/faculty/PreetiVerma.png'
+import InaThakur from '../assets/images/faculty/InaThakur.png'
+import AmitPrakash from '../assets/images/faculty/AmitPrakash.png'
+import SatishKumar_Soc from '../assets/images/faculty/SatishKumar.png'
+import MadanVerma from '../assets/images/faculty/MadanVerma.png'
 
 
 import i2 from "../assets/images/top-view-circuit-board-close-up.jpg";
@@ -150,8 +154,8 @@ export const teamMembers = {
       post: "NIT Kurukshetra",
     },
     {
-      image: ShivDutt,
-      name: "Dr. Shiv Dutt Sharma",
+      image: KishoreVejandla,
+      name: "Dr. Vejandla Kishore",
       post: "IIIT Una",
     },
     {
@@ -172,8 +176,8 @@ export const teamMembers = {
       post: "NIT Kurukshetra",
     },
     {
-      image: KishoreVejandla,
-      name: "Dr. Vejandla Kishore",
+      image: ShivDutt,
+      name: "Dr. Shiv Dutt Sharma",
       post: "IIIT Una",
     },
     {
@@ -182,7 +186,6 @@ export const teamMembers = {
       post: "IIIT Una",
     }
   ],
-
   organisingSecretary: [
     {
       image: NaveenCheggoju,
@@ -221,16 +224,36 @@ export const teamMembers = {
       name: "Dr. Ankur Thakur",
       post: "IIIT Una",
     },
+    {
+      image: PreetiVerma,
+      name: "Dr. Preeti Verma",
+      post: "NIT Delhi",
+    },
+    {
+      image: AmitPrakash,
+      name: "Dr. Amit Prakash",
+      post: "NIT Delhi",
+    },
   ],
   financeChair: [
     {
-      image: AkhilWalia,
-      name: "Dr. Akhil Walia",
+      image: JaspreetKaur,
+      name: "Dr. Jaspreet Kaur",
       post: "IIIT Una",
+    },
+    {
+      image: InaThakur,
+      name: "Dr. Ina Thakur",
+      post: "IIIT Una"
     },
     {
       image: NikunjGoyal,
       name: "Dr. Nikunj Goyal",
+      post: "IIIT Una",
+    },
+    {
+      image: Laxmanika,
+      name: "Ms. Laxmanika",
       post: "IIIT Una",
     },
   ],
@@ -245,7 +268,6 @@ export const teamMembers = {
       name: "Ms. Laxmanika",
       post: "IIIT Una",
     },
-
     {
       image: SatishKumar,
       name: "Mr. Satish Kumar",
@@ -257,6 +279,40 @@ export const teamMembers = {
       post: "IIIT Una",
     },
   ],
+  TutorialChair: [
+    {
+      image: AkhilWalia,
+      name: "Dr. Akhil Walia",
+      post: "IIIT Una",
+    },
+    {
+      image: AshishRaman,
+      name: "Dr. Ashish Raman",
+      post: "NIT Jalandhar",
+    },
+    {
+      image: ShonalChouksey,
+      name: "Dr. Shonal Chouksey",
+      post: "IIIT Una",
+    },
+    {
+      image: ArunPatel,
+      name: "Dr. Arun Patel",
+      post: "NIT Kurukshetra",
+    },
+  ],
+  TranportationDesk: [
+    {
+      image: SatishKumar_Soc,
+      name: "Mr. Satish Kumar",
+      post: "IIIT Una",
+    },
+    {
+      image: MadanVerma,
+      name: "Dr. Madan L. Verma",
+      post: "IIIT Una",
+    },
+  ]
 };
 
 export const places = [
@@ -389,8 +445,7 @@ export const tracksData = [
       "Neural Network and Machine Learning",
       "Multimedia Signal Processing",
       "Speech Signal Processing",
-      "Image and Video Processing",
-      "Biomedical Signal computing"
+      "Image and Video Processing"
     ],
     image: i4,
   },

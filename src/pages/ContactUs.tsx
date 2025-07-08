@@ -113,7 +113,7 @@ const ContactPage: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto py-12">
+      <div className="container mx-auto py-12 bg-white">
         <div className="flex justify-center items-center w-full mx-auto h-32">
           <h1 className="text-3xl lg:text-5xl font-bold text-center mb-8 border-2 border-green-700 text-green-700 rounded p-2 inline-block">
             How to Reach

@@ -23,7 +23,7 @@ const Header: React.FC = () => {
                   className="h-16 mr-2 hidden lg-custom:block"
                 />
                 <h1 className="font-sans text-green-700 font-medium text-2xl lg-custom:text-5xl">
-                  ICIC3S
+                  ICIC3S 2026
                 </h1>
               </a>
             </div>
@@ -211,7 +211,7 @@ const Header: React.FC = () => {
                     rel="noopener noreferrer"
                     onClick={closeMenu}
                   >
-                    ICIC3S 2024
+                    1<sup>st</sup> ICIC3S
                   </a>
                   <a
                     href="/contact"
