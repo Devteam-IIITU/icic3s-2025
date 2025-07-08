@@ -123,7 +123,7 @@ const Header: React.FC = () => {
                     Organizing Committee
                   </a>
                   <a
-                    href="technicalPgm.html"
+                    href="/technical"
                     className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-xl font-medium whitespace-nowrap"
                   >
                     Technical Program Committee
@@ -211,7 +211,7 @@ const Header: React.FC = () => {
                     Organizing Committee
                   </a>
                   <a
-                    href="technicalPgm.html"
+                    href="/technical"
                     className="block px-2 py-1 text-gray-900 hover:bg-green-100 text-lg"
                     onClick={closeMenu}
                   >
