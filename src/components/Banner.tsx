@@ -16,10 +16,10 @@ const ConferenceBanner: React.FC = () => {
             style={{ lineHeight: "1.4" }}
             className="font-bold font-[sans-serif] text-2xl sm:text-3xl md:text-4xl leading-[1.5]"
           >
-            INTERNATIONAL CONFERENCE <br /> ON <br /> INTEGRATED CIRCUITS,
+            SECOND INTERNATIONAL CONFERENCE <br /> ON <br /> INTEGRATED CIRCUITS,
             COMMUNICATION, AND COMPUTING SYSTEMS
             <br />
-            (ICIC3S-2025)
+            (ICIC3S-2026)
           </span>
           <br />
           {/* <div
