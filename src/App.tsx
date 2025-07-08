@@ -7,6 +7,7 @@ import RegistrationFees from "./pages/Register";
 import Advisory from "./pages/Advisory";
 import Org from "./pages/Org";
 import ContactUs from "./pages/ContactUs";
+import Technical from "./pages/Technical";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/register" element={<RegistrationFees />} />
         <Route path="/advisory" element={<Advisory />} />
         <Route path="/org" element={<Org />} />
+        <Route path="/technical" element={<Technical />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
     </Router>

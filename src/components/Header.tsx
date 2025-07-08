@@ -10,40 +10,6 @@ const Header: React.FC = () => {
 
   return (
     <header className="top-0 left-0 z-20 ">
-      {/* Top bar with contact info */}
-      <div className="bg-blue-950 px-4 lg-custom:px-10 text-xl text-white py-2">
-        <div className="max-w-full mx-auto">
-          <div className="flex justify-around items-center">
-            {/* Left contact info */}
-            <div className="hidden lg-custom:flex space-x-4">
-              <ul className="flex space-x-4">
-                <li className="flex items-center">
-                  <i className="far text-green-500 fa-envelope mr-1"></i>
-                  ankur@iiitu.ac.in <span className="mx-2">|</span>
-                </li>
-                <li className="flex items-center">
-                  <i className="fas text-green-500 fa-phone-volume mr-1"></i>
-                  +91 98370-12205
-                </li>
-              </ul>
-            </div>
-            {/* Right contact info */}
-            <div className="hidden lg-custom:flex space-x-4">
-              <ul className="flex space-x-4">
-                <li className="flex items-center">
-                  <i className="far text-green-500 fa-envelope mr-1"></i>
-                  namangarg@iiitu.ac.in <span className="mx-2">|</span>
-                </li>
-                <li className="flex items-center">
-                  <i className="fas text-green-500 fa-phone-volume mr-1"></i>
-                  +91 95556-98585
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Main Navbar */}
       <div className="bg-gray-300 w-full py-4">
         <div className="max-w-full mx-auto px-4">
@@ -57,7 +23,7 @@ const Header: React.FC = () => {
                   className="h-16 mr-2 hidden lg-custom:block"
                 />
                 <h1 className="font-sans text-green-700 font-medium text-2xl lg-custom:text-5xl">
-                  ICIC3S 2025
+                  ICIC3S
                 </h1>
               </a>
             </div>
@@ -123,7 +89,7 @@ const Header: React.FC = () => {
                     Organizing Committee
                   </a>
                   <a
-                    href="technicalPgm.html"
+                    href="/technical"
                     className="block px-4 py-2 text-gray-900 hover:bg-green-100 text-xl font-medium whitespace-nowrap"
                   >
                     Technical Program Committee
@@ -154,7 +120,7 @@ const Header: React.FC = () => {
                 rel="noopener noreferrer"
                 className="text-gray-900 hover:text-green-700 font-sans text-xl font-medium"
               >
-                ICIC3S 2024
+              1<sup>st</sup> ICIC3S
               </a>
               <a
                 href="/contact"
@@ -211,7 +177,7 @@ const Header: React.FC = () => {
                     Organizing Committee
                   </a>
                   <a
-                    href="technicalPgm.html"
+                    href="/technical"
                     className="block px-2 py-1 text-gray-900 hover:bg-green-100 text-lg"
                     onClick={closeMenu}
                   >
