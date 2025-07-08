@@ -407,6 +407,21 @@ export const committees = [
     ],
   },
   {
+    title: "Publication Committee",
+    members: [
+      { name: "Dr. Bhavna", university: "IIIT Una" },
+      { name: "Ms. Laxmanika", university: "IIIT Una" },
+      { name: "Mrs. Nisha", university: "IIIT Una" },
+    ],
+  },
+  {
+    title: "Publicity Committee",
+    members: [
+      { name: "Dr. Pranshu", university: "IIIT Una" },
+      { name: "Ms. Manu Chauhan", university: "IIIT Una" },
+    ],
+  },
+  {
     title: "Accommodation/Hospitality Committee",
     members: [
       { name: "Dr. Prince Sharma", university: "IIIT Una" },
