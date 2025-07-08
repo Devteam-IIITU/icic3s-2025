@@ -28,12 +28,87 @@ import i3 from "../assets/images/telecommunications-towers-against-cloudy-sky.jp
 import i4 from "../assets/images/computing.jpg";
 import i5 from "../assets/images/standard-quality-control-concept-m.jpg";
 
+import ArunPatel from "../assets/images/faculty/akp.png";
+import Sahil from "../assets/images/faculty/ds.png";
+import RKNagaria from "../assets/images/faculty/rkn.png";
+import GhanshyamSingh from "../assets/images/faculty/gs.png";
+import BKKanaujia from "../assets/images/faculty/bkk.png";
+
+import ManojSinghGaur from "../assets/images/guests/msg.png";
+import PrernaGaur from "../assets/images/guests/pg.png";
+import SudarshanIyengar from "../assets/images/guests/si.png";
+import HarishParthasarathy from "../assets/images/guests/hp.png";
+import MNHoda from "../assets/images/guests/mnh.png";
+import MuftiMahmud from "../assets/images/guests/mm.png";
+import DavidBrown from "../assets/images/guests/db.png";
+
 export const teamMembers = {
   patron: [
     {
       image: ManishGaur,
       name: "Prof. Manish Gaur",
       post: "Director, IIIT Una",
+    },
+  ],
+  ExecutiveGeneralChair: [
+    {
+      image: BKKanaujia,
+      name: "Prof. B. K. Kanaujia",
+      post: "NIT Jalandhar",
+    },
+  ],
+  GeneralChair: [
+    {
+      image: GhanshyamSingh,
+      name: "Prof. Ghanshyam Singh",
+      post: "MNIT Jaipur",
+    },
+    {
+      image: RKNagaria,
+      name: "Prof. R. K. Nagaria",
+      post: "MNIT Jaipur",
+    },
+  ],
+  Guests: [
+    {
+      image: ManojSinghGaur,
+      name: "Prof. Manoj Singh Gaur",
+      post: "Director, IIT Jammu",
+    },
+    {
+      image: PrernaGaur,
+      name: "Prof. Prerna Gaur",
+      post: "Director, NSUT-West Campus",
+    },
+    {
+      image: SudarshanIyengar,
+      name: "Prof. Sudarshan Iyengar",
+      post: "IIT Ropar",
+    },
+    {
+      image: HarishParthasarathy,
+      name: "Prof. Harish Parthasarathy",
+      post: "NSUT New Delhi",
+    },
+    {
+      image: MNHoda,
+      name: "Prof. M. N. Hoda",
+      post: "BVICAM New Delhi",
+    },
+    {
+      image: MuftiMahmud,
+      name: "Prof. Mufti Mahmud",
+      post: "KFUPM, Saudi Arabia",
+    },
+    {
+      image: DavidBrown,
+      name: "Prof. David Brown",
+      post: "NTU UK",
+    },
+    {
+      image: BKKanaujia,
+      name: "Prof. B. K. Kanaujia",
+      post: "Director, NIT Jalandhar",
     },
   ],
   conferenceChair: [
@@ -77,27 +152,11 @@ export const teamMembers = {
       post: "IIIT Una",
     },
   ],
-  publicityChair: [
-    {
-      image: AshwiniKumar,
-      name: "Dr. Ashwini Kumar Malviya",
-      post: "IIIT Una",
-    },
-    {
-      image: ShivDutt,
-      name: "Dr. Shiv Dutt Sharma",
-      post: "IIIT Una",
-    },
-  ],
+
   organisingSecretary: [
     {
-      image: ShatrughanModi,
-      name: "Dr. Shatrughan Modi",
-      post: "IIIT Una",
-    },
-    {
-      image: Sanjit,
-      name: "Dr. Sanjit Ningthoujam",
+      image: NaveenCheggoju,
+      name: "Dr. Naveen Cheggoju",
       post: "IIIT Una",
     },
     {
@@ -106,15 +165,25 @@ export const teamMembers = {
       post: "IIIT Una",
     },
     {
+      image: Sahil,
+      name: "Dr. Sahil",
+      post: "NIT Delhi",
+    },
+    {
       image: GurpreetKaur,
       name: "Dr. Gurpreet Kaur",
       post: "IIIT Una",
     },
   ],
-  tutorialChair: [
+  publicityChair: [
     {
-      image: ShonalChouksey,
-      name: "Dr. Shonal Chouksey",
+      image: ArunPatel,
+      name: "Dr. Arun Patel",
+      post: "NIT Kurukshetra",
+    },
+    {
+      image: NishthaHooda,
+      name: "Dr. Nishtha Hooda",
       post: "IIIT Una",
     },
     {
@@ -125,15 +194,17 @@ export const teamMembers = {
   ],
   financeChair: [
     {
-      image: NikunjGoyal,
-      name: "Dr. Nikunj Goyal",
-      post: "IIIT Una",
-    },
-    {
       image: AkhilWalia,
       name: "Dr. Akhil Walia",
       post: "IIIT Una",
     },
+    {
+      image: NikunjGoyal,
+      name: "Dr. Nikunj Goyal",
+      post: "IIIT Una",
+    },
+  ],
+  RegistrationDesk: [
     {
       image: JaspreetKaur,
       name: "Dr. Jaspreet Kaur",
@@ -144,26 +215,15 @@ export const teamMembers = {
       name: "Ms. Laxmanika",
       post: "IIIT Una",
     },
-  ],
-  RegistrationDesk: [
+
     {
       image: SatishKumar,
       name: "Mr. Satish Kumar",
       post: "IIIT Una",
     },
     {
-      image: PayalSharma,
-      name: "Dr. Payal Sharma",
-      post: "IIIT Una",
-    },
-    {
       image: DivyanshThakur,
       name: "Dr. Divyansh Thakur",
-      post: "IIIT Una",
-    },
-    {
-      image: PranshuSharma,
-      name: "Ms. Pranshu Sharma",
       post: "IIIT Una",
     },
   ],
@@ -441,14 +501,26 @@ export const committees = [
 
 export const events = [
   {
-    date: "29 Feb., 2024",
-    title: "Full Paper Submission Deadline",
+    date: "01 Oct., 2025",
+    title: "Abstract / Extended Abstract / Full Paper Submission",
     isHighlighted: true,
   },
-  { date: "10 April, 2024", title: "Acceptance Notification Deadline" },
-  { date: "25 April, 2024", title: "Camera Ready Manuscript Deadline" },
-  { date: "01 May, 2024", title: "Conference Registration Deadline" },
-  { date: "01-02 June, 2024", title: "Conference Dates" },
+  {
+    date: "25 Nov., 2025",
+    title: "Acceptance Notification",
+  },
+  {
+    date: "20 Dec., 2025",
+    title: "Camera Ready Paper Submission",
+  },
+  {
+    date: "01 Jan., 2026",
+    title: "Conference Registration Deadline",
+  },
+  {
+    date: "13-14 Feb., 2026",
+    title: "Conference Dates",
+  }
 ];
 
 export const technicalAdvisery: { name: string; university: string }[] = [
