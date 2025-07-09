@@ -187,13 +187,13 @@ export const teamMembers = {
   ],
   organisingSecretary: [
     {
-      image: NaveenCheggoju,
-      name: "Dr. Naveen Cheggoju",
+      image: TanuWadhera,
+      name: "Dr. Tanu Wadhera",
       post: "IIIT Una",
     },
     {
-      image: TanuWadhera,
-      name: "Dr. Tanu Wadhera",
+      image: NaveenCheggoju,
+      name: "Dr. Naveen Cheggoju",
       post: "IIIT Una",
     },
     {
