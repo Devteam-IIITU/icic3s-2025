@@ -31,6 +31,7 @@ import MadanVerma from "../assets/images/faculty/MadanVerma.png";
 import Satendra from "../assets/images/faculty/satendra.png";
 import Prince from "../assets/images/faculty/prince.png";
 import AshishMaurya from "../assets/images/faculty/AshishMaurya.png";
+import PranshuSharma from "../assets/images/faculty/ps.png";
 
 
 import i2 from "../assets/images/top-view-circuit-board-close-up.jpg";
