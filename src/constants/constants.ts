@@ -187,13 +187,13 @@ export const teamMembers = {
   ],
   organisingSecretary: [
     {
-      image: NaveenCheggoju,
-      name: "Dr. Naveen Cheggoju",
+      image: TanuWadhera,
+      name: "Dr. Tanu Wadhera",
       post: "IIIT Una",
     },
     {
-      image: TanuWadhera,
-      name: "Dr. Tanu Wadhera",
+      image: NaveenCheggoju,
+      name: "Dr. Naveen Cheggoju",
       post: "IIIT Una",
     },
     {
@@ -466,8 +466,6 @@ export const tracksData = [
   },
 ];
 
-export const callPaper =
-  'International Conference on "Integrated Circuits, Communication, and Computing Systems (ICIC3S)" is the premier forum for showcasing recent developments and research findings in the domains of integrated circuits, communication, and computing. The conference will bring together leading researchers, engineers, and scientists in the domain of interest from around the world. The submission can be done in the following tracks, but are not limited to:';
 
 export const advisorsInternational: { name: string; university: string }[] = [
   { name: "Prof. Mufti Mahmud", university: "NTU UK" },

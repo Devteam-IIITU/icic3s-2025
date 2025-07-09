@@ -2,11 +2,10 @@ import React from "react";
 
 interface AboutProps {
   heading?: string;
-  para: string;
   image: string;
 }
 
-const Display: React.FC<AboutProps> = ({ heading, para, image }) => {
+const Display: React.FC<AboutProps> = ({ heading, image }) => {
   return (
     <div id="about" className="about-company py-12 px-12">
       <div className="container mx-auto">
@@ -17,7 +16,7 @@ const Display: React.FC<AboutProps> = ({ heading, para, image }) => {
                 {heading}
               </h3>
               <p className="text-justify text-black text-base sm:text-xl lg:text-2xl leading-relaxed pt-4 sm:px-4 lg:px-0">
-                {para}
+                2<sup>nd</sup> International Conference on "Integrated Circuits, Communication, and Computing Systems (ICIC3S)" is the premier forum for showcasing recent developments and research findings in the domains of integrated circuits, communication, and computing. The conference will bring together leading researchers, engineers, and scientists in the domain of interest from around the world. The submission can be done in the following tracks, but are not limited to:
               </p>
             </div>
           </div>
