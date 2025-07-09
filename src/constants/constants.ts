@@ -30,6 +30,8 @@ import InaThakur from "../assets/images/faculty/InaThakur.png";
 import AmitPrakash from "../assets/images/faculty/AmitPrakash.png";
 import SatishKumar_Soc from "../assets/images/faculty/SatishKumar.png";
 import MadanVerma from "../assets/images/faculty/MadanVerma.png";
+import Satendra from "../assets/images/faculty/satendra.png";
+import Prince from "../assets/images/faculty/prince.png";
 
 import i2 from "../assets/images/top-view-circuit-board-close-up.jpg";
 import i3 from "../assets/images/telecommunications-towers-against-cloudy-sky.jpg";
@@ -49,6 +51,7 @@ import HarishParthasarathy from "../assets/images/guests/hp.png";
 import MNHoda from "../assets/images/guests/mnh.png";
 import MuftiMahmud from "../assets/images/guests/mm.png";
 import DavidBrown from "../assets/images/guests/db.png";
+import KVArya from "../assets/images/guests/kv.png";
 
 export const teamMembers = {
   patron: [
@@ -114,9 +117,9 @@ export const teamMembers = {
       post: "NTU UK",
     },
     {
-      image: BKKanaujia,
-      name: "Prof. B. K. Kanaujia",
-      post: "Director, NIT Jalandhar",
+      image: KVArya,
+      name: "Prof. Karm Veer Arya",
+      post: "ABV-IIITM Gwalior",
     },
   ],
   conferenceChair: [
@@ -258,23 +261,23 @@ export const teamMembers = {
   ],
   RegistrationDesk: [
     {
-      image: JaspreetKaur,
-      name: "Dr. Jaspreet Kaur",
+      image: Prince,
+      name: "Mr. Prince Sharma",
       post: "IIIT Una",
     },
     {
-      image: Laxmanika,
-      name: "Dr. Laxmanika",
-      post: "IIIT Una",
-    },
-    {
-      image: SatishKumar,
+      image: SatishKumar_Soc,
       name: "Mr. Satish Kumar",
       post: "IIIT Una",
     },
     {
       image: DivyanshThakur,
       name: "Mr. Divyansh Thakur",
+      post: "IIIT Una",
+    },
+    {
+      image: PranshuSharma,
+      name: "Ms. Pranshu Sharma",
       post: "IIIT Una",
     },
   ],
@@ -302,8 +305,13 @@ export const teamMembers = {
   ],
   TransportationDesk: [
     {
-      image: SatishKumar_Soc,
+      image: SatishKumar,
       name: "Mr. Satish Kumar",
+      post: "IIIT Una",
+    },
+    {
+      image: Satendra,
+      name: "Dr. Satendra Kumar",
       post: "IIIT Una",
     },
     {
