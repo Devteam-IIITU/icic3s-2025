@@ -28,7 +28,7 @@ import InaThakur from "../assets/images/faculty/InaThakur.png";
 import AmitPrakash from "../assets/images/faculty/AmitPrakash.png";
 import SatishKumar_Soc from "../assets/images/faculty/SatishKumar.png";
 import MadanVerma from "../assets/images/faculty/MadanVerma.png";
-import Satendra from "../assets/images/faculty/satendra.png";
+import Satendra from "../assets/images/faculty/satendra.jpeg";
 import Prince from "../assets/images/faculty/prince.png";
 import AshishMaurya from "../assets/images/faculty/AshishMaurya.png";
 import PranshuSharma from "../assets/images/faculty/ps.png";
@@ -233,50 +233,6 @@ export const teamMembers = {
       post: "IIIT Una",
     },
   ],
-  financeChair: [
-    {
-      image: JaspreetKaur,
-      name: "Dr. Jaspreet Kaur",
-      post: "IIIT Una",
-    },
-    {
-      image: Laxmanika,
-      name: "Dr. Laxmanika",
-      post: "IIIT Una",
-    },
-    {
-      image: NikunjGoyal,
-      name: "Dr. Nikunj Goyal",
-      post: "IIIT Una",
-    },
-    {
-      image: InaThakur,
-      name: "Dr. Ina Thakur",
-      post: "IIIT Una",
-    },
-  ],
-  RegistrationDesk: [
-    {
-      image: Prince,
-      name: "Dr. Prince Sharma",
-      post: "IIIT Una",
-    },
-    {
-      image: SatishKumar_Soc,
-      name: "Mr. Satish Kumar",
-      post: "IIIT Una",
-    },
-    {
-      image: DivyanshThakur,
-      name: "Mr. Divyansh Thakur",
-      post: "IIIT Una",
-    },
-    {
-      image: PranshuSharma,
-      name: "Ms. Pranshu Sharma",
-      post: "IIIT Una",
-    },
-  ],
   TutorialChair: [
     {
       image: AnoopPatel,
@@ -299,12 +255,29 @@ export const teamMembers = {
       post: "IIIT Una",
     }, 
   ],
-  TransportationDesk: [
+  financeChair: [
     {
-      image: SatishKumar,
-      name: "Mr. Satish Kumar",
+      image: JaspreetKaur,
+      name: "Dr. Jaspreet Kaur",
       post: "IIIT Una",
     },
+    {
+      image: Laxmanika,
+      name: "Dr. Laxmanika",
+      post: "IIIT Una",
+    },
+    {
+      image: NikunjGoyal,
+      name: "Dr. Nikunj Goyal",
+      post: "IIIT Una",
+    },
+    {
+      image: InaThakur,
+      name: "Dr. Ina Thakur",
+      post: "IIIT Una",
+    },
+  ],
+  TransportationCommittee: [
     {
       image: Satendra,
       name: "Dr. Satendra Kumar",
@@ -313,6 +286,33 @@ export const teamMembers = {
     {
       image: MadanVerma,
       name: "Dr. Madan L. Verma",
+      post: "IIIT Una",
+    },
+    {
+      image: SatishKumar_Soc,
+      name: "Mr. Satish Kumar",
+      post: "IIIT Una",
+    },
+  ],
+  RegistrationDesk: [
+    {
+      image: Prince,
+      name: "Dr. Prince Sharma",
+      post: "IIIT Una",
+    },
+    {
+      image: SatishKumar,
+      name: "Mr. Satish Kumar",
+      post: "IIIT Una",
+    },
+    {
+      image: DivyanshThakur,
+      name: "Mr. Divyansh Thakur",
+      post: "IIIT Una",
+    },
+    {
+      image: PranshuSharma,
+      name: "Ms. Pranshu Sharma",
       post: "IIIT Una",
     },
   ],

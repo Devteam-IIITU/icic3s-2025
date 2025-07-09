@@ -84,7 +84,7 @@ const SubmissionRules = () => {
         <h2 className="text-3xl font-bold mb-4">Publication Ethics</h2>
         <ul className="list-disc list-inside text-black text-lg leading-7 mb-4">
           <li>
-            Every paper submitted to ICIC3S-2026 will be checked for plagiarism
+            Every paper submitted to ICIC3S 2026 will be checked for plagiarism
             using anti-plagiarism software before being sent for a
             pre-conference review. Authors should observe high standards with
             respect to publication ethics. Falsification or fabrication of data,
