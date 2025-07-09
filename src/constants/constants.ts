@@ -3,7 +3,7 @@ import AnkurKumar from "../assets/images/faculty/ak.jpg";
 import NamanGarg from "../assets/images/faculty/naman.png";
 import MrityunjaySingh from "../assets/images/faculty/mj.png";
 import NaveenCheggoju from "../assets/images/faculty/nc.png";
-import NishthaHooda from "../assets/images/faculty/n.png";
+import NishthaHooda from "../assets/images/faculty/NishthaHooda.png";
 import KishoreVejandla from "../assets/images/faculty/vk.png";
 import AshwiniKumar from "../assets/images/faculty/akm.png";
 import ShivDutt from "../assets/images/faculty/sd.png";
@@ -18,9 +18,7 @@ import AkhilWalia from "../assets/images/faculty/aw.png";
 import JaspreetKaur from "../assets/images/faculty/jk.png";
 import Laxmanika from "../assets/images/faculty/lk.png";
 import SatishKumar from "../assets/images/faculty/sk.png";
-import PayalSharma from "../assets/images/faculty/payal.png";
 import DivyanshThakur from "../assets/images/faculty/dk.png";
-import PranshuSharma from "../assets/images/faculty/ps.png";
 import AshishRaman from "../assets/images/faculty/AshishRaman.png";
 import MohitDua from "../assets/images/faculty/MohitDua.png";
 import SamayveerSingh from "../assets/images/faculty/SamayveerSingh.png";
@@ -30,13 +28,15 @@ import InaThakur from "../assets/images/faculty/InaThakur.png";
 import AmitPrakash from "../assets/images/faculty/AmitPrakash.png";
 import SatishKumar_Soc from "../assets/images/faculty/SatishKumar.png";
 import MadanVerma from "../assets/images/faculty/MadanVerma.png";
+import AshishMaurya from "../assets/images/faculty/AshishMaurya.png";
+
 
 import i2 from "../assets/images/top-view-circuit-board-close-up.jpg";
 import i3 from "../assets/images/telecommunications-towers-against-cloudy-sky.jpg";
 import i4 from "../assets/images/computing.jpg";
 import i5 from "../assets/images/standard-quality-control-concept-m.jpg";
 
-import ArunPatel from "../assets/images/faculty/akp.png";
+import AnoopPatel from "../assets/images/faculty/akp.png";
 import Sahil from "../assets/images/faculty/ds.png";
 import RKNagaria from "../assets/images/faculty/rkn.png";
 import GhanshyamSingh from "../assets/images/faculty/gs.png";
@@ -209,19 +209,9 @@ export const teamMembers = {
   ],
   publicityChair: [
     {
-      image: ArunPatel,
-      name: "Dr. Arun Patel",
-      post: "NIT Kurukshetra",
-    },
-    {
-      image: NishthaHooda,
-      name: "Dr. Nishtha Hooda",
-      post: "IIIT Una",
-    },
-    {
-      image: AnkurThakur,
-      name: "Dr. Ankur Thakur",
-      post: "IIIT Una",
+      image: AmitPrakash,
+      name: "Dr. Amit Prakash",
+      post: "NIT Kurukshetra ",
     },
     {
       image: PreetiVerma,
@@ -229,9 +219,14 @@ export const teamMembers = {
       post: "NIT Delhi",
     },
     {
-      image: AmitPrakash,
-      name: "Dr. Amit Prakash",
-      post: "NIT Delhi",
+      image: ShonalChouksey,
+      name: "Dr. Shonal Chouksey",
+      post: "IIIT Una",
+    },
+    {
+      image: AnkurThakur,
+      name: "Dr. Ankur Thakur",
+      post: "IIIT Una",
     },
   ],
   financeChair: [
@@ -241,8 +236,8 @@ export const teamMembers = {
       post: "IIIT Una",
     },
     {
-      image: InaThakur,
-      name: "Dr. Ina Thakur",
+      image: Laxmanika,
+      name: "Dr. Laxmanika",
       post: "IIIT Una",
     },
     {
@@ -251,22 +246,12 @@ export const teamMembers = {
       post: "IIIT Una",
     },
     {
-      image: Laxmanika,
-      name: "Dr. Laxmanika",
+      image: InaThakur,
+      name: "Dr. Ina Thakur",
       post: "IIIT Una",
     },
   ],
   RegistrationDesk: [
-    {
-      image: JaspreetKaur,
-      name: "Dr. Jaspreet Kaur",
-      post: "IIIT Una",
-    },
-    {
-      image: Laxmanika,
-      name: "Dr. Laxmanika",
-      post: "IIIT Una",
-    },
     {
       image: SatishKumar,
       name: "Mr. Satish Kumar",
@@ -280,25 +265,25 @@ export const teamMembers = {
   ],
   TutorialChair: [
     {
+      image: AnoopPatel,
+      name: "Dr. Anoop Patel",
+      post: "NIT Kurukshetra",
+    },
+    {
+      image: NishthaHooda,
+      name: "Dr. Nishtha Hooda",
+      post: "IIIT Una",
+    },
+    {
       image: AkhilWalia,
       name: "Dr. Akhil Walia",
       post: "IIIT Una",
     },
     {
-      image: AshishRaman,
-      name: "Dr. Ashish Raman",
-      post: "NIT Jalandhar",
-    },
-    {
-      image: ShonalChouksey,
-      name: "Dr. Shonal Chouksey",
+      image: AshishMaurya,
+      name: "Dr. Ashish Maurya",
       post: "IIIT Una",
-    },
-    {
-      image: ArunPatel,
-      name: "Dr. Arun Patel",
-      post: "NIT Kurukshetra",
-    },
+    }, 
   ],
   TransportationDesk: [
     {
