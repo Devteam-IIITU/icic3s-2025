@@ -18,7 +18,6 @@ import AkhilWalia from "../assets/images/faculty/aw.png";
 import JaspreetKaur from "../assets/images/faculty/jk.png";
 import Laxmanika from "../assets/images/faculty/lk.png";
 import SatishKumar from "../assets/images/faculty/sk.png";
-import PayalSharma from "../assets/images/faculty/payal.png";
 import DivyanshThakur from "../assets/images/faculty/dk.png";
 import PranshuSharma from "../assets/images/faculty/ps.png";
 import AshishRaman from "../assets/images/faculty/AshishRaman.png";
