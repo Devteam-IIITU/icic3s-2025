@@ -21,16 +21,15 @@ import SatishKumar from "../assets/images/faculty/sk.png";
 import PayalSharma from "../assets/images/faculty/payal.png";
 import DivyanshThakur from "../assets/images/faculty/dk.png";
 import PranshuSharma from "../assets/images/faculty/ps.png";
-import AshishRaman from "../assets/images/faculty/AshishRaman.png"
-import MohitDua from '../assets/images/faculty/MohitDua.png'
-import SamayveerSingh from '../assets/images/faculty/SamayveerSingh.png'
-import PankajVerma from '../assets/images/faculty/PankajVerma.png'
-import PreetiVerma from '../assets/images/faculty/PreetiVerma.png'
-import InaThakur from '../assets/images/faculty/InaThakur.png'
-import AmitPrakash from '../assets/images/faculty/AmitPrakash.png'
-import SatishKumar_Soc from '../assets/images/faculty/SatishKumar.png'
-import MadanVerma from '../assets/images/faculty/MadanVerma.png'
-
+import AshishRaman from "../assets/images/faculty/AshishRaman.png";
+import MohitDua from "../assets/images/faculty/MohitDua.png";
+import SamayveerSingh from "../assets/images/faculty/SamayveerSingh.png";
+import PankajVerma from "../assets/images/faculty/PankajVerma.png";
+import PreetiVerma from "../assets/images/faculty/PreetiVerma.png";
+import InaThakur from "../assets/images/faculty/InaThakur.png";
+import AmitPrakash from "../assets/images/faculty/AmitPrakash.png";
+import SatishKumar_Soc from "../assets/images/faculty/SatishKumar.png";
+import MadanVerma from "../assets/images/faculty/MadanVerma.png";
 
 import i2 from "../assets/images/top-view-circuit-board-close-up.jpg";
 import i3 from "../assets/images/telecommunications-towers-against-cloudy-sky.jpg";
@@ -162,7 +161,7 @@ export const teamMembers = {
       image: Sanjit,
       name: "Dr. Sanjit Ningthoujam",
       post: "IIIT Una",
-    }
+    },
   ],
   publicationChair: [
     {
@@ -184,7 +183,7 @@ export const teamMembers = {
       image: AshwiniKumar,
       name: "Dr. Ashwini Kumar Malviya",
       post: "IIIT Una",
-    }
+    },
   ],
   organisingSecretary: [
     {
@@ -244,7 +243,7 @@ export const teamMembers = {
     {
       image: InaThakur,
       name: "Dr. Ina Thakur",
-      post: "IIIT Una"
+      post: "IIIT Una",
     },
     {
       image: NikunjGoyal,
@@ -253,7 +252,7 @@ export const teamMembers = {
     },
     {
       image: Laxmanika,
-      name: "Ms. Laxmanika",
+      name: "Dr. Laxmanika",
       post: "IIIT Una",
     },
   ],
@@ -265,7 +264,7 @@ export const teamMembers = {
     },
     {
       image: Laxmanika,
-      name: "Ms. Laxmanika",
+      name: "Dr. Laxmanika",
       post: "IIIT Una",
     },
     {
@@ -275,7 +274,7 @@ export const teamMembers = {
     },
     {
       image: DivyanshThakur,
-      name: "Dr. Divyansh Thakur",
+      name: "Mr. Divyansh Thakur",
       post: "IIIT Una",
     },
   ],
@@ -301,7 +300,7 @@ export const teamMembers = {
       post: "NIT Kurukshetra",
     },
   ],
-  TranportationDesk: [
+  TransportationDesk: [
     {
       image: SatishKumar_Soc,
       name: "Mr. Satish Kumar",
@@ -312,7 +311,7 @@ export const teamMembers = {
       name: "Dr. Madan L. Verma",
       post: "IIIT Una",
     },
-  ]
+  ],
 };
 
 export const places = [
@@ -428,7 +427,7 @@ export const tracksData = [
       "Millimeter, Terahertz antennas and systems",
       "MIMO, Massive-MIMO and OFDM",
       "Terrestrial, Earth-Space and Ionospheric propagation",
-      "Tunable and reconfigurable antennas"
+      "Tunable and reconfigurable antennas",
     ],
     image: i3,
   },
@@ -445,7 +444,7 @@ export const tracksData = [
       "Neural Network and Machine Learning",
       "Multimedia Signal Processing",
       "Speech Signal Processing",
-      "Image and Video Processing"
+      "Image and Video Processing",
     ],
     image: i4,
   },
@@ -461,7 +460,7 @@ export const tracksData = [
       "Healthcare Information Systems",
       "Assistive Technologies for Disabilities",
       "Telemedicine and Remote Healthcare",
-      "Bioinformatics and Computational Biology in Healthcare"
+      "Bioinformatics and Computational Biology in Healthcare",
     ],
     image: i5,
   },
@@ -472,33 +471,79 @@ export const callPaper =
 
 export const advisorsInternational: { name: string; university: string }[] = [
   { name: "Prof. Mufti Mahmud", university: "NTU UK" },
-  { name: "Prof. Dulani Meedeniya", university: "University of Mortuwa, SriLanka" },
-  { name: "Prof. Fabrizio Stasolla", university: "University “Giustino Fortunato” of Benevento" },
+  {
+    name: "Prof. Dulani Meedeniya",
+    university: "University of Mortuwa, SriLanka",
+  },
+  {
+    name: "Prof. Fabrizio Stasolla",
+    university: "University “Giustino Fortunato” of Benevento",
+  },
   { name: "Prof. De Silva", university: "University of Mortuwa, SriLanka" },
   { name: "Prof. David Brown", university: "NTU UK" },
-  { name: "Prof. Valentina E. Balas", university: "Aurel Vlaicu University of Arad, Romania" },
-  { name: "Prof. Neil Bergamn", university: "The University of Queensland, Australia" },
+  {
+    name: "Prof. Valentina E. Balas",
+    university: "Aurel Vlaicu University of Arad, Romania",
+  },
+  {
+    name: "Prof. Neil Bergamn",
+    university: "The University of Queensland, Australia",
+  },
   { name: "Prof. Tong In Oh", university: "Kyung Hee University, Korea" },
-  { name: "Prof. Atul Singh Minhas", university: "Kyung Hee University, Korea" },
+  {
+    name: "Prof. Atul Singh Minhas",
+    university: "Kyung Hee University, Korea",
+  },
   { name: "Prof. Sampath Jayarathna", university: "Old Dominion University" },
   { name: "Prof. Oleg Komogortsev", university: "Texas State University" },
-  { name: "Prof. Yasith Jayawardan", university: "Old Dominion University, Harvard" },
+  {
+    name: "Prof. Yasith Jayawardan",
+    university: "Old Dominion University, Harvard",
+  },
   { name: "Prof. Frank Shipman", university: "Texas A&M University" },
-  { name: "Prof. Lois M. L. Delcambre", university: "Portland State University" },
+  {
+    name: "Prof. Lois M. L. Delcambre",
+    university: "Portland State University",
+  },
   { name: "Prof. Paul Joseph", university: "Georgia Tech, Atlanta USA" },
   { name: "Prof. Izanoordina Ahmad", university: "University of Kuala Lumpur" },
-  { name: "Prof. Bharat K. Bhargava", university: "Purdue University, Indiana" },
-  { name: "Prof. Mohd Helmy Abd Wahab", university: "University Tun Hussein Onn Malaysia" },
-  { name: "Prof. Manuel Cardona", university: "Universidad Don Bosco (UDB), El Salvador" },
-  { name: "Prof. Gary W. Chang", university: "National Chung Cheng University, Taiwan" },
+  {
+    name: "Prof. Bharat K. Bhargava",
+    university: "Purdue University, Indiana",
+  },
+  {
+    name: "Prof. Mohd Helmy Abd Wahab",
+    university: "University Tun Hussein Onn Malaysia",
+  },
+  {
+    name: "Prof. Manuel Cardona",
+    university: "Universidad Don Bosco (UDB), El Salvador",
+  },
+  {
+    name: "Prof. Gary W. Chang",
+    university: "National Chung Cheng University, Taiwan",
+  },
   { name: "Prof. U. Guvenc", university: "Duzce University, Turkey" },
-  { name: "Prof. Math Bollen", university: "Luleå University of Technology, Sweden" },
-  { name: "Prof. Irene Yu-Hua Gu", university: "Chalmers University of Technology, Sweden" },
+  {
+    name: "Prof. Math Bollen",
+    university: "Luleå University of Technology, Sweden",
+  },
+  {
+    name: "Prof. Irene Yu-Hua Gu",
+    university: "Chalmers University of Technology, Sweden",
+  },
   { name: "Prof. Tor A. Fjeldly", university: "NTNU, Kjeller, Norway" },
   { name: "Prof. Thi Thi Zin", university: "University of Miyazaki, Japan" },
-  { name: "Prof. Leila Mokhnache", university: "Higher National School of Renewable Energy, Environment and Sustainable Development, Algeria" },
+  {
+    name: "Prof. Leila Mokhnache",
+    university:
+      "Higher National School of Renewable Energy, Environment and Sustainable Development, Algeria",
+  },
   { name: "Prof. Shingo Yamaguchi", university: "Yamaguchi University, Japan" },
-  { name: "Prof. Ahmed Boubakeur", university: "Ecole Nationale Polytechnique, Algeria" }
+  {
+    name: "Prof. Ahmed Boubakeur",
+    university: "Ecole Nationale Polytechnique, Algeria",
+  },
 ];
 export const advisorsNational: { name: string; university: string }[] = [
   { name: "Prof. B. K. Kanaujia", university: "NIT Jalandhar" },
@@ -516,7 +561,10 @@ export const advisorsNational: { name: string; university: string }[] = [
   { name: "Prof. V. V. Mani", university: "NIT Warangal" },
   { name: "Prof. R. A. Mishra", university: "MNNIT Allahabad" },
   { name: "Prof. Brahmjit Singh", university: "NIT Kurukshetra" },
-  { name: "Prof. Dinesh Prasad", university: "Jamia Millia Islamia, New Delhi" },
+  {
+    name: "Prof. Dinesh Prasad",
+    university: "Jamia Millia Islamia, New Delhi",
+  },
   { name: "Prof. Manoj Kumar", university: "NIT Delhi" },
   { name: "Prof. Jyoteesh Malhotra", university: "NIT Delhi" },
   { name: "Prof. Geeta Sikka", university: "NIT Delhi" },
@@ -531,7 +579,7 @@ export const advisorsNational: { name: string; university: string }[] = [
   { name: "Prof. Tapan Kumar Gandhi", university: "IIIT Delhi" },
   { name: "Dr. Vinay Shanker Pandey", university: "NIT Delhi" },
   { name: "Dr. Ashish Raman", university: "NIT Jalandhar" },
-  { name: "Dr. Indu Saini", university: "NIT Jalandhar" }
+  { name: "Dr. Indu Saini", university: "NIT Jalandhar" },
 ];
 export const committees = [
   {
@@ -549,21 +597,21 @@ export const committees = [
       { name: "Ms. Manu Chauhan", university: "IIIT Una" },
       { name: "Mrs. Nisha", university: "IIIT Una" },
       { name: "Ms. Pranshu", university: "IIIT Una" },
-      { name: "Ms. Hem Lata", university: "IIIT Una" }
+      { name: "Ms. Hem Lata", university: "IIIT Una" },
     ],
   },
   {
     title: "Finance Committee",
     members: [
       { name: "Mr. R. K. Verma", university: "Consultant, IIIT Una" },
-      { name: "Mr. Jagjeet Kumar", university: "IIIT Una" }
+      { name: "Mr. Jagjeet Kumar", university: "IIIT Una" },
     ],
   },
   {
     title: "Publication Committee",
     members: [
       { name: "Dr. Bhavna", university: "IIIT Una" },
-      { name: "Ms. Laxmanika", university: "IIIT Una" },
+      { name: "Dr. Laxmanika", university: "IIIT Una" },
       { name: "Mrs. Nisha", university: "IIIT Una" },
     ],
   },
@@ -580,15 +628,12 @@ export const committees = [
       { name: "Dr. Prince Sharma", university: "IIIT Una" },
       { name: "Dr. Ina Thakur", university: "IIIT Una" },
       { name: "Dr. Satendra Kumar", university: "IIIT Una" },
-      { name: "Mr. Satish Kumar", university: "IIIT Una" }
+      { name: "Mr. Satish Kumar", university: "IIIT Una" },
     ],
   },
   {
     title: "Transportation Committee",
-    members: [
-      { name: "Dr. Madan L. Verma", university: "IIIT Una" },
-
-    ],
+    members: [{ name: "Dr. Madan L. Verma", university: "IIIT Una" }],
   },
 ];
 
@@ -613,7 +658,7 @@ export const events = [
   {
     date: "13-14 Feb., 2026",
     title: "Conference Dates",
-  }
+  },
 ];
 
 export const technicalAdvisery: { name: string; university: string }[] = [
